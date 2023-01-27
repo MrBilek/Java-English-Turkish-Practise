@@ -5,14 +5,23 @@ import java.util.Scanner;
 public class hi {
     public static void main(String[] args) {
 
+    int input=-23;
 
-        Scanner scan= new Scanner(System.in);
+    if (input>1){
 
-        int sayi= scan.nextInt();
+        for (int i = input; i >=1 ; i--) {
+            System.out.print(i+" ");
 
-        sayi=10;
 
-        System.out.println(Integer.MAX_VALUE);
+        }
+
+
+    }else {
+        for (int i = input; i <=1 ; i++) {
+            System.out.println(i+" ");
+
+        }
+    }
 
 
     }

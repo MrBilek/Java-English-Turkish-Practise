@@ -6,35 +6,35 @@ public class newquestion {
 
         String searchWord = "e";
 
-        istenenElement(arr,searchWord);
+        istenenElement(arr, searchWord);
         istenenElement(arr, "i");
 
 
     }
 
-    public static void istenenElement(String[][]arr, String searchWord) {
+    public static void istenenElement(String[][] arr, String searchWord) {
 
 
         for (int i = 0; i < arr.length; i++) {
 
             for (int j = 0; j < arr[i].length; j++) {
 
-                if (arr[i][j].contains(searchWord)){
+                if (arr[i][j].contains(searchWord)) {
 
-                    System.out.print(arr [i][j]+ " ");
+                    System.out.print(arr[i][j] + " ");
                 }
 
-
-                }
 
             }
 
-        System.out.println("******************");
-
         }
 
+        System.out.println("******************");
 
     }
+
+
+}
 
 
 
